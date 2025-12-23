@@ -2,7 +2,7 @@
 
 # Automated AWS Access Review System
 
-**AI-Enhanced Alerts | Cloud Security Automation**
+** Cloud Security Automation | Risk Scoring Enhanced Alerts **
 
 ## Project Overview
 
