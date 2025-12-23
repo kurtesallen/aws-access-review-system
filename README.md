@@ -1,11 +1,11 @@
 # aws-access-review-system
 
 
-# 🔐 Automated AWS Access Review System
+# Automated AWS Access Review System
 
 **AI-Enhanced Alerts | Cloud Security Automation**
 
-## 📌 Project Overview
+## Project Overview
 
 The **Automated AWS Access Review System** is a cloud security automation project designed to audit AWS IAM users, roles, and permissions. It continuously evaluates access usage, identifies security risks, and generates actionable alerts and reports.
 
@@ -13,50 +13,18 @@ This project demonstrates **real-world cloud security practices**, including lea
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
-* 🔍 Detects **unused IAM users and roles**
-* ⚠️ Identifies **overly permissive policies** (e.g., `AdministratorAccess`)
-* 📊 Generates **CSV and JSON access review reports**
-* 📩 Sends **email alerts via Amazon SNS**
-* 🤖 Fully automated using **AWS Lambda and CloudWatch Events**
-* ☁️ Stores audit reports securely in **Amazon S3**
+*  Detects **unused IAM users and roles**
+*  Identifies **overly permissive policies** (e.g., `AdministratorAccess`)
+*  Generates **CSV and JSON access review reports**
+*  Sends **email alerts via Amazon SNS**
+*  Fully automated using **AWS Lambda and CloudWatch Events**
+*  Stores audit reports securely in **Amazon S3**
 
 ---
 
-## 🏗️ Architecture Overview
-
-+---------------------+
-|   CloudWatch Event  |
-|  (Scheduled Rule)  |
-+----------+----------+
-           |
-           v
-+---------------------+
-|    AWS Lambda       |
-| Access Review Func |
-|---------------------|
-| - IAM Users/Roles   |
-| - Policy Analysis   |
-| - Risk Scoring      |
-+----------+----------+
-           |
-     +-----+-----+
-     |           |
-     v           v
-+---------+   +----------------+
-| Amazon  |   |  Amazon SNS    |
-|   S3    |   | Email Alerts   |
-| Reports |   | (Risk Found)   |
-+---------+   +----------------+
-     ^
-     |
-+---------------------+
-|   AWS CloudTrail    |
-| IAM Activity Logs   |
-|   (Stored in S3)   |
-+---------------------+
-
+## Architecture Overview
 
 ### System Flow
 
@@ -71,7 +39,7 @@ This project demonstrates **real-world cloud security practices**, including lea
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 ### Cloud Services
 
@@ -90,7 +58,7 @@ This project demonstrates **real-world cloud security practices**, including lea
 
 ---
 
-## 🔍 Skills Demonstrated
+## Skills Demonstrated
 
 | Cloud      | Automation            | Security                    |
 | ---------- | --------------------- | --------------------------- |
@@ -101,7 +69,7 @@ This project demonstrates **real-world cloud security practices**, including lea
 
 ---
 
-## ⚙️ Implementation Highlights
+## Implementation Highlights
 
 * **Lambda Functions**
 
@@ -120,7 +88,7 @@ This project demonstrates **real-world cloud security practices**, including lea
 
 ---
 
-## ▶️ How It Works
+## How It Works
 
 1. CloudWatch triggers the Lambda function on a schedule
 2. Lambda analyzes IAM configurations and usage patterns
@@ -150,9 +118,8 @@ This project demonstrates **real-world cloud security practices**, including lea
 
 ---
 
----
 
-## 👤 Author
+## Author
 
 **Kurtes Allen**
 GitHub: [https://github.com/kurtesallen](https://github.com/kurtesallen)
